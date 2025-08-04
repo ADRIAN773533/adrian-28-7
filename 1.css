@@ -15,3 +15,8 @@ En tu HTML, el carrusel tiene id="carouselExampleIndicators", así que usá #car
 }
 
 /* Si quieres mover el botón "anterior", usa .carousel-control-prev de forma similar */
+img {
+  width: 50%;
+  height: auto; /* Mantiene la proporción de la imagen */
+  margin-top: -160px; /* Sube la imagen, ajusta el valor según lo necesites */
+}
